@@ -96,7 +96,7 @@ export default function StakeForm({ contract, tokenContract, address }) {
       {!isPoolPacked && !isLocked && (
         <div className="inputContainer">
           <div className="input">
-            <label>Amount: Minimum 100000000</label>
+            <label>Amount: Minimum 100</label>
             <input
               type="text"
               placeholder="0"
